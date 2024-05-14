@@ -1,0 +1,19 @@
+{
+  "name": "jonas",
+  "version": "1.0.0",
+  "description": "Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Backend"
+  ],
+  "author": "Satyam Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "slugify": "^1.6.6"
+  }
+}
