@@ -84,7 +84,7 @@ const server=http.createServer((req,res)=>{
     const prodct=dataObt[query.id];
     console.log(query);
     const output=replaceTemplate(prod,prodct);
-    res.end(output);
+    res.end(output); 
    }
    // api
    else if(pathname==='/api'){
